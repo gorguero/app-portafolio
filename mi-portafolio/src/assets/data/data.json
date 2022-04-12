@@ -1,8 +1,10 @@
 {
     "nombre": "Juan Cruz Agüero Luna",
-    "image-perfil": "../img/perfil.png",
-    "perfil-laboral": "Desarrollador Web Full Stack Trainnee",
+    "imagenPerfil": "../../assets/img/perfil.png",
+    "perfilLaboral": "Desarrollador Web Full Stack Trainnee",
     "ubicacion": "Catamarca, Argentina",
+    "logoLinkedin": "../../assets/img/linkedin (1).png",
+    "logoGithub": "../../assets/img/github (1).png",
     "sobreMi": {
         "parte1": "Soy un desarrollador web full stack Trainee. Me encuentro cursando el ultimo año de la tecnicatura en desarrollo de software en el Instituto Superior San Martin y realizando la segunda etapa de Argentina Programa #YoProgramo.",
         "parte2": "Soy una persona proactiva con muchas ganas de seguir aprendiendo, de poder aportar en proyectos desafiantes y en busqueda de mi primera oportunidad laboral como desarrollador, para asi lograr experiencia laboral en el mundo del software."
@@ -12,37 +14,42 @@
         "linkedin": "https://www.linkedin.com/in/juan-cruz-ag%C3%BCero/",
         "github": "https://github.com/gorguero",
         "email": "jcaguerodev@gmail.com",
-        "telefono": "+543834403372"
+        "telefono": "+543834403372",
+        "linkedinLogo": "../../assets/img/linkedin-icon.png",
+        "githubLogo": "../../assets/img/github2.png",
+        "emailLogo": "../../assets/img/gmail.png",
+        "telefonoLogo": "../../assets/img/telefono.png"
     },
     "educacion": [{
             "escuela": "Instituto Superior General San Martin",
             "titulo": "Técnico Superior en Desarrollo de Software",
             "comienzo": 2019,
             "finalizacion": 2022,
-            "logo": "../img/LOGO-NUEVO-WEB.png"
+            "logo": "../../assets/img/LOGO-NUEVO-WEB.png"
         },
         {
             "escuela": "Udemy",
             "titulo": "Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap",
             "comienzo": "Diciembre",
             "finalizacion": 2021,
-            "logo": "../img/logo-udemy.png"
+            "logo": "../../assets/img/logo-udemy.png"
         },
         {
             "escuela": "Argentina Programa",
             "titulo": "#SéProgramar",
-            "comienzo": 2022,
+            "comienzo": "Febrero",
             "finalizacion": 2022,
             "logo": "https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1643935033/APLogo-20-20.png"
         }
     ],
-    "experiencia": [{
+    "experiencia": [
+        {
             "company": "Incluit",
             "titulo": "Full Stack Web Developer Jr",
             "comienzo": 2022,
             "finalizacion": "Actualidad",
             "ubicacion": "Córdoba, Argentina",
-            "logo": "../img/logo-udemy.png"
+            "logo": "../../assets/img/logo-udemy.png"
         }
     ],
     "softSkills": [
@@ -128,11 +135,23 @@
         {
             "portada": "../img/portada-mail.png",
             "titulo": "Envio de mails",
-            "descripcion": "Página web sobre cursos de desarrollo web, desarrollada a modo de práctica.",
-            "desarrolladaCon": "HTML5 - CSS3",
-            "enlace": "https://mystifying-curie-dc835e.netlify.app/"
+            "descripcion": "Landing page desarrollada a modo de práctica, en donde simula el envio de emails",
+            "desarrolladaCon": "HTML5 - CSS3 - Bootstrap 5 - Javascript",
+            "enlace": "https://xenodochial-shaw-f7eb85.netlify.app/"
         },
-        {},
-        {}
+        {
+            "portada": "../img/portada-buscadorAutos.png",
+            "titulo": "Buscador de Autos",
+            "descripcion": "Landing page desarrollada a modo de práctica, donde se puede filtrar la busqueda de autos que se encuentren en alquiler o en venta.",
+            "desarrolladaCon": "HTML5 - CSS3 - Bootstrap 5 - Javascript",
+            "enlace": "https://heuristic-lewin-8e0ee3.netlify.app/"
+        },
+        {
+            "portada": "../img/portada-twits.png",
+            "titulo": "Twits",
+            "descripcion": "Landing page desarrollada a modo de práctica, donde se puede escribir un twit y se mostrara a un constado al presionar el boton agregar.",
+            "desarrolladaCon": "HTML5 - CSS3 - Bootstrap 5 - Javascript",
+            "enlace": "https://jolly-engelbart-d1de53.netlify.app"
+        }
     ]
 }

@@ -8,10 +8,16 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
 })
 export class EncabezadoComponent implements OnInit {
 
+  logoLinkedin:any;
+  logoGithub:any;
+
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos();
+    this.datosPorfolio.obtenerDatos().subscribe(data => {
+      this.logoLinkedin = data.logoLinkedin;
+      this.logoGithub = data.logoGithub;
+    })
   }
 
 }
