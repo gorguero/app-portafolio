@@ -72,7 +72,10 @@
         {
             "nombre": "Adaptabilidad",
             "nivel": 85
-        },
+        }
+    ],
+    "softSkills2": 
+    [
         {
             "nombre": "Motivación",
             "nivel": 100
@@ -94,60 +97,50 @@
             "nivel": 85
         }
     ],
-    "tecnologias": [
-        {
-            "logoTecnologia": "../img/html5 (1).png"
-        },
-        {
-            "logoTecnologia": "../img/css3.png"
-        },
-        {
-            "logoTecnologia": "../img/bootstrap.png"
-        },
-        {
-            "logoTecnologia": "../img/javascript.png"
-        },
-        {
-            "logoTecnologia": "../img/git.png"
-        }
-    ],
+    "tecnologias": {
+        "html": "../../assets/img/html5 (1).png",
+        "css": "../../assets/img/css3.png",
+        "bootstrap": "../../assets/img/bootstrap.png",
+        "javascript": "../../assets/img/javascript.png",
+        "git": "../../assets/img/git.png"
+    },
     "proyectos": [{
-            "portada": "../img/portada-BienesRaices.png",
+            "portada": "../../assets/img/portada-BienesRaices.png",
             "titulo": "Proyecto Bienes Raices",
             "descripcion": "Es una página web sobre bienes raices desarrollada a modo de práctica. La misma cuenta con una landing page, sección de nosotros, anuncios, blog y contacto.",
             "desarrolladaCon": "HTML5 - CSS3",
             "enlace": "https://thirsty-galileo-74f5f7.netlify.app/"
         },
         {
-            "portada": "../img/portada-kondur.png",
+            "portada": "../../assets/img/portada-kondur.png",
             "titulo": "Kondur Skateboards",
             "descripcion": "Página web en proceso de desarrollo para la marca de tablas de skate catamarqueña Kondur Skateboards. Cuenta con página principal, sección para ver sus productos, información sobre el team, contenido audiovisual y página de contacto.",
             "desarrolladaCon": "HTML5 - CSS3",
             "enlace": "https://blissful-yalow-9bfcae.netlify.app/"
         },
         {
-            "portada": "../img/portada-cursos.png",
+            "portada": "../../assets/img/portada-cursos.png",
             "titulo": "Cursos web",
             "descripcion": "Página web sobre cursos de desarrollo web, desarrollada a modo de práctica.",
             "desarrolladaCon": "HTML5 - CSS3",
             "enlace": "https://mystifying-curie-dc835e.netlify.app/"
         },
         {
-            "portada": "../img/portada-mail.png",
+            "portada": "../../assets/img/portada-mail.png",
             "titulo": "Envio de mails",
             "descripcion": "Landing page desarrollada a modo de práctica, en donde simula el envio de emails",
             "desarrolladaCon": "HTML5 - CSS3 - Bootstrap 5 - Javascript",
             "enlace": "https://xenodochial-shaw-f7eb85.netlify.app/"
         },
         {
-            "portada": "../img/portada-buscadorAutos.png",
+            "portada": "../../assets/img/portada-buscadorAutos.png",
             "titulo": "Buscador de Autos",
             "descripcion": "Landing page desarrollada a modo de práctica, donde se puede filtrar la busqueda de autos que se encuentren en alquiler o en venta.",
             "desarrolladaCon": "HTML5 - CSS3 - Bootstrap 5 - Javascript",
             "enlace": "https://heuristic-lewin-8e0ee3.netlify.app/"
         },
         {
-            "portada": "../img/portada-twits.png",
+            "portada": "../../assets/img/portada-twits.png",
             "titulo": "Twits",
             "descripcion": "Landing page desarrollada a modo de práctica, donde se puede escribir un twit y se mostrara a un constado al presionar el boton agregar.",
             "desarrolladaCon": "HTML5 - CSS3 - Bootstrap 5 - Javascript",
